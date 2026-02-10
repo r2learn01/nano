@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { ModelType } from "../types";
+import { ModelType } from "./types";
 
 export const generateImage = async (prompt: string): Promise<string> => {
   // Create a new GoogleGenAI instance right before making the API call 
