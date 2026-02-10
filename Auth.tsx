@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { translations } from '../translations';
-import { Language, User } from '../types';
-import { ADMIN_CREDENTIALS } from '../constants';
+import { translations } from './translations';
+import { Language, User } from './types';
+import { ADMIN_CREDENTIALS } from './constants';
 
 interface AuthProps {
   type: 'login' | 'register';
