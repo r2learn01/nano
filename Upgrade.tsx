@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { translations } from '../translations';
-import { Language } from '../types';
-import { PREMIUM_PRICE, WHATSAPP_NUMBER } from '../constants';
+import { translations } from './translations';
+import { Language } from './types';
+import { PREMIUM_PRICE, WHATSAPP_NUMBER } from './constants';
 
 interface UpgradeProps {
   language: Language;
