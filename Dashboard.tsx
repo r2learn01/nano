@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { translations } from '../translations';
-import { GeneratedImage, Language, User } from '../types';
-import { WHATSAPP_NUMBER } from '../constants';
+import { translations } from './translations';
+import { GeneratedImage, Language, User } from './types';
+import { WHATSAPP_NUMBER } from './constants';
 
 interface DashboardProps {
   language: Language;
