@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { translations } from '../translations';
-import { Language, User } from '../types';
+import { translations } from './translations';
+import { Language, User } from './types';
 
 interface AdminProps {
   language: Language;
