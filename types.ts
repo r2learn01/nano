@@ -52,7 +52,6 @@ export interface AppState {
 }
 
 export enum ModelType {
-  // الموديل ده هو المخصص لتوليد الصور (Imagen 3)
-  PRO = 'imagen-3.0-generate-001', 
-  EDIT = 'imagen-3.0-edit-001'
+  PRO = 'gemini-1.5-flash',
+  EDIT = 'gemini-1.5-flash'
 }
