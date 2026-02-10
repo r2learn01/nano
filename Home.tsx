@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { translations } from '../translations';
-import { Language, User } from '../types';
-import { GALLERY_IMAGES, PREMIUM_PRICE } from '../constants';
+import { translations } from './translations';
+import { Language, User } from './types';
+import { GALLERY_IMAGES, PREMIUM_PRICE } from './constants';
 
 interface HomeProps {
   language: Language;
