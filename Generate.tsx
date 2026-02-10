@@ -1,9 +1,9 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { translations } from '../translations';
-import { Language, User, GeneratedImage } from '../types';
-import { generateImage, editImage, blobToBase64 } from '../services/gemini';
-import { FREE_IMAGE_LIMIT, WHATSAPP_NUMBER } from '../constants';
+import { translations } from './translations';
+import { Language, User, GeneratedImage } from './types';
+import { generateImage, editImage, blobToBase64 } from './gemini';
+import { FREE_IMAGE_LIMIT, WHATSAPP_NUMBER } from './constants';
 
 interface GenerateProps {
   language: Language;
