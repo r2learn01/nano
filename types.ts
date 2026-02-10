@@ -52,8 +52,7 @@ export interface AppState {
 }
 
 export enum ModelType {
-  // تم التعديل لـ gemini-1.5-flash لأنه الموديل المستقر حالياً 
-  // والذي يدعم مهام توليد الصور بكوتا (Quota) أفضل في الخطة المجانية
-  PRO = 'gemini-1.5-flash',
-  EDIT = 'gemini-1.5-flash'
+  // الموديل ده هو المخصص لتوليد الصور (Imagen 3)
+  PRO = 'imagen-3.0-generate-001', 
+  EDIT = 'imagen-3.0-edit-001'
 }
